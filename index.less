@@ -1,0 +1,133 @@
+@baseFontSize: 20;
+html {
+  font-size: @baseFontSize+px;
+}
+.px2rem(@name, @px) {
+    @{name}: @px /2/@baseFontSize * 1rem;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+}
+#top {
+  .px2rem(width, 750);
+  height:100%;
+  background: #fff;
+  input:nth-child(1) {
+    .px2rem(width, 700);
+    .px2rem(height, 74);
+    .px2rem(margin-top, 10);
+    text-align: center;
+    background: #f7f7f7;
+    .px2rem(border-radius, 60);
+    border-color: #fff;
+    color: #969696;
+    .px2rem(font-size, 32);
+    font-family: 华文仿宋;
+    .px2rem(margin-left, 25);
+  }
+}
+#i-logo {
+  .px2rem(width, 750);
+  .px2rem(height, 150);
+  #i_box {
+    .px2rem(line-height, 150);
+    text-align: center;
+    display: flex;
+    .px2rem(width, 648);
+    .px2rem(height, 117);
+    .px2rem(margin-top, 52);
+    .px2rem(margin-left, 50);
+    .i_img {
+      .px2rem(margin-right, 64);
+      .px2rem(width, 114);
+      .px2rem(height, 116)
+    }
+  }
+
+}
+#i-su{
+  .px2rem(width, 750);
+  .px2rem(height, 150);
+  .i_su_p{
+    .px2rem(font-size, 34);
+    .px2rem(line-height, 150);
+    color:#929292;
+    .px2rem(margin-left, 33);
+    font-family: 华文仿宋;
+
+  }
+}
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+html,body{height: 100%;overflow: hidden;}
+img{display: block;}
+#wrap{position: relative;}
+#wrap .list{
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  /*width: 500%;*/
+}
+#wrap .list li{
+  float: left;
+  .px2rem(width, 709);
+  .px2rem(margin-left, 21);
+  .px2rem(margin-right, 20);
+}
+#wrap .list li a img{
+  width: 100%;
+}
+.i_good{
+  .px2rem(width, 750);
+  .px2rem(height, 707);
+  .i_good_image{
+    .px2rem(width, 707);
+    .px2rem(height, 422);
+    .px2rem(margin-left, 25);
+    .px2rem(margin-left, 20);
+  }
+  .i_good_ins{
+    .px2rem(width, 750);
+    .px2rem(height, 286);
+    position: relative;
+    .i_good_name{
+      .px2rem(font-size, 38);
+      .px2rem(margin-top, 24);
+      color:#565656;
+      .px2rem(margin-left, 68);
+      font-family: 华文仿宋;
+      .px2rem(letter-spacing, 2);
+
+    }
+    .i_good_itr{
+      .px2rem(font-size, 30);
+      .px2rem(margin-top, 30);
+      color: #b0b0b0;
+      .px2rem(margin-left, 58);
+      font-family: 华文仿宋;
+      .px2rem(letter-spacing, 2);
+      .px2rem(width, 492);
+
+    }
+    .i_good_pht{
+      .px2rem(width, 98);
+      .px2rem(height, 97);
+      .px2rem(margin-top, -167);
+      .px2rem(margin-left, 595);
+      position: absolute;
+    }
+    .i_good_peo{
+      .px2rem(font-size, 34);
+      .px2rem(margin-top, -55);
+      color: #9d9d9d;
+      .px2rem(margin-left, 575);
+      font-family: 华文仿宋;
+      .px2rem(letter-spacing, 2);
+      //.px2rem(width, 492);
+
+    }
+  }
+}
