@@ -9,6 +9,7 @@ body {
 #top {
   width: 18.75rem;
   height: 100%;
+  overflow: hidden;
   background: #fff;
 }
 #top input:nth-child(1) {
@@ -44,11 +45,11 @@ body {
 }
 #i-su {
   width: 18.75rem;
-  height: 3.75rem;
+  height: 2.75rem;
 }
 #i-su .i_su_p {
   font-size: 0.85rem;
-  line-height: 3.75rem;
+  line-height: 2.75rem;
   color: #929292;
   margin-left: 0.825rem;
   font-family: 华文仿宋;
@@ -66,7 +67,6 @@ a {
 html,
 body {
   height: 100%;
-  overflow: hidden;
 }
 img {
   display: block;
