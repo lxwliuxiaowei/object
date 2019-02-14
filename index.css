@@ -137,3 +137,46 @@ img {
   font-family: 华文仿宋;
   letter-spacing: 0.05rem;
 }
+#i_bot {
+  width: 18.75rem;
+  height: 2.75rem;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+}
+#i_bot .i_home {
+  flex: 1;
+  margin-right: 3rem;
+}
+#i_bot .i_home .b_img {
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.375rem;
+  position: relative;
+}
+#i_bot .i_home .b_f1 {
+  font-size: 0.5rem;
+  color: #787878;
+  margin-top: 0.375rem;
+  position: absolute;
+  letter-spacing: 0.05rem;
+}
+#i_bot .i_home .b_f2 {
+  font-size: 0.5rem;
+  color: #787878;
+  margin-top: 0.375rem;
+  margin-left: -0.5rem;
+  position: absolute;
+  letter-spacing: 0.125rem;
+}
+#i_bot .i_home .b_f3 {
+  font-size: 0.5rem;
+  color: #787878;
+  margin-top: 0.375rem;
+  margin-left: -0.5rem;
+  position: absolute;
+  letter-spacing: 0.125rem;
+}
+#i_bot .i_home:nth-child(1) {
+  margin-left: 2.625rem;
+}
