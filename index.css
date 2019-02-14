@@ -140,6 +140,7 @@ img {
 #i_bot {
   width: 18.75rem;
   height: 2.75rem;
+  background: #ffffff;
   display: flex;
   position: fixed;
   bottom: 0;
